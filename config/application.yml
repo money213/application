@@ -1,0 +1,32 @@
+spring:
+  profiles:
+    active: redis
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+ribbon:
+  ServerListRefreshInterval: 1000
+  ReadTimeout: 50000
+  ConnectTimeout: 50000
+  MaxAutoRetriesNextServer: 3
+
+endpoints:
+  health:
+    sensitive: false
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "loggers"
+  security:
+    enabled: false
+logging:
+  config: classpath:logback/logback-spring.xml
