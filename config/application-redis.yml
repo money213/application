@@ -61,7 +61,8 @@ litemall:
         password: 123456
         timeout: 10000
         maxIdle: 300
-## 连接池的最大数据库连接数。设为0表示无限制,如果是jedis 2.4以后用redis.maxTotal
+## 连接池的最大数据库连接数。设为0表示无限制,如果是jedis 2.4以后用redis.maxTotal  测试
+## sda
         maxActive: 600
 ## 控制一个pool可分配多少个jedis实例,用来替换上面的redis.maxActive,如果是jedis 2.4以后用该属性
         maxTotal: 1000
