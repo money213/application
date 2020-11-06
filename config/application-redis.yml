@@ -3,7 +3,7 @@ spring:
     host: 47.115.212.214
 #    host: 127.0.0.1
     port: 6379
-#    password: 123456
+    password: 123456
     timeout: 10000
     ssl: false
     maxIdle: 300
@@ -30,7 +30,7 @@ litemall:
         hostName: 47.115.212.214
 #        hostName: 127.0.0.1
         port: 6379
-#        password: 123456
+        password: 123456
         timeout: 10000
         maxIdle: 300
 ## 连接池的最大数据库连接数。设为0表示无限制,如果是jedis 2.4以后用redis.maxTotal
@@ -58,7 +58,7 @@ litemall:
 ##        hostName: 188.168.1.30
         hostName: 47.115.212.214
         port: 6379
-#        password: 123456
+        password: 123456
         timeout: 10000
         maxIdle: 300
 ## 连接池的最大数据库连接数。设为0表示无限制,如果是jedis 2.4以后用redis.maxTotal  测试
