@@ -20,7 +20,6 @@ ribbon:
   ReadTimeout: 50000
   ConnectTimeout: 50000
   MaxAutoRetriesNextServer: 3
-
 endpoints:
   health:
     sensitive: false
