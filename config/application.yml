@@ -21,12 +21,12 @@ endpoints:
     enabled: true
   shutdown:
     enabled: true
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "loggers"
-  security:
-    enabled: false
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "loggers"
+#  security:
+#    enabled: false
 logging:
   config: classpath:logback/logback-spring.xml
