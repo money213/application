@@ -8,15 +8,15 @@ spring:
       percentage: 0.2
   zipkin:
     base-url: http://47.115.212.214:9411/
-  redis:
-    host: 127.0.0.1
-    port: 6379
-    password: 123456
-    database: 0
-    timeout: 5000
-    sentinel:
-      master: mymaster
-      nodes: 47.115.212.214:26379,47.115.212.214:26480,47.115.212.214:26581
+#  redis:
+#    host: 127.0.0.1
+#    port: 6379
+#    password: 123456
+#    database: 0
+#    timeout: 5000
+#    sentinel:
+#      master: mymaster
+#      nodes: 47.115.212.214:26379,47.115.212.214:26480,47.115.212.214:26581
 hystrix:
   command:
     default:
