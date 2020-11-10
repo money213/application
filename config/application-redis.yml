@@ -23,6 +23,9 @@ spring:
     testOnBorrow: true
 ## 在空闲时检查有效性, 默认false
     testWhileIdle: true
+    sentinel:
+      master: mymaster
+      nodes: 47.115.212.214:26379,47.115.212.214:26480,47.115.212.214:26581
 litemall:
   pub:
     redis:
