@@ -54,8 +54,8 @@ litemall:
         testWhileIdle: true
 ## redis 哨兵监听的Redis Server的名称
         sentinel:
-          master: master
-##          nodes: 47.115.212.214:6379,47.115.212.214:6379
+          master: mymaster
+          nodes: 47.115.212.214:26379,47.115.212.214:26480,47.115.212.214:26581
 ##          nodes: 172.16.189.35:6379,172.16.189.35:6379,172.16.189.35:6379
       write:
 ##        hostName: 188.168.1.30
