@@ -17,6 +17,7 @@ spring:
 #    sentinel:
 #      master: mymaster
 #      nodes: 47.115.212.214:26379,47.115.212.214:26480,47.115.212.214:26581
+#
 hystrix:
   command:
     default:
