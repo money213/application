@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: redis
+    active: dev,redis
 hystrix:
   command:
     default:
