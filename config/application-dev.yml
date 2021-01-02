@@ -1,4 +1,5 @@
-ceshi: wahaha
+ceshi:
+  test: wahaha
 spring:
   aop:
     proxy-target-class: true
